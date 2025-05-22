@@ -43,7 +43,7 @@ public class GenericList {
     @Column(name = "request_type")
     private String requestType = "Other";
 
-    private String reason = "Fraud API";
+//    private String reason = "Fraud API";
     private String remarks = "Imei Blocked Due to RAS Fraud";
 
     private int operator_id;

@@ -44,7 +44,7 @@ public class GenericListHis {
     @Column(name = "request_type")
     private String requestType = "Other";
 
-    private String reason = "Fraud API";
+   // private String reason = "Fraud API";
     private String remarks = "Imei BlackListed Due to RAS Fraud";
 
     private int  operator_id, operation;
